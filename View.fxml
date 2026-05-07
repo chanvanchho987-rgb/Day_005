@@ -6,37 +6,34 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
    <children>
       <Label layoutX="180.0" layoutY="53.0" text="Mini Project 001">
          <font>
             <Font size="30.0" />
          </font>
       </Label>
-      <Label layoutX="435.0" layoutY="177.0" text="=">
+      <Label layoutX="437.0" layoutY="132.0" text="=">
          <font>
             <Font size="30.0" />
          </font>
       </Label>
-      <Label layoutX="229.0" layoutY="179.0" text="+">
+      <Label layoutX="228.0" layoutY="133.0" text="+">
          <font>
             <Font size="31.0" />
          </font>
       </Label>
       <Label id="label_result" fx:id="label_result" layoutX="478.0" layoutY="133.0" text="Result">
-      <Label layoutX="480.0" layoutY="177.0" text="Result">
          <font>
             <Font size="30.0" />
          </font>
       </Label>
       <TextField id="textfile_num1" fx:id="textfile_num1" layoutX="52.0" layoutY="130.0" prefHeight="33.0" prefWidth="160.0" text="3">
-      <TextField layoutX="45.0" layoutY="174.0" prefHeight="33.0" prefWidth="160.0" text="3">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
       <TextField id="textfile_num2" fx:id="textfile_num2" layoutX="273.0" layoutY="130.0" prefHeight="46.0" prefWidth="149.0" text="2">
-      <TextField layoutX="277.0" layoutY="175.0" prefHeight="46.0" prefWidth="149.0" text="2">
          <font>
             <Font size="23.0" />
          </font>
@@ -46,15 +43,5 @@
             <Font size="28.0" />
          </font>
       </Button>
-      <ImageView fitHeight="140.0" fitWidth="170.0" layoutX="416.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Pictures/satoru-smoking.jpg" />
-         </image>
-      </ImageView>
-      <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@photo_2026-05-07_16-46-24.jpg" />
-         </image>
-      </ImageView>
    </children>
 </AnchorPane>
