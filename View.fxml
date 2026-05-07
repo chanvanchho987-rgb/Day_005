@@ -12,7 +12,7 @@
    <children>
       <ImageView fitHeight="121.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../OneDrive/Pictures/mog1.jpg" />
+            <Image url="@../../../Pictures/photo_2025-12-26_12-14-52.jpg" />
          </image></ImageView>
       <Label layoutX="180.0" layoutY="53.0" text="Mini Project 001">
          <font>
@@ -49,5 +49,10 @@
             <Font size="28.0" />
          </font>
       </Button>
+      <ImageView fitHeight="140.0" fitWidth="170.0" layoutX="416.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../Pictures/satoru-smoking.jpg" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
