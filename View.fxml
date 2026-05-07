@@ -34,12 +34,12 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <TextField layoutX="52.0" layoutY="130.0" prefHeight="33.0" prefWidth="160.0">
+      <TextField layoutX="52.0" layoutY="130.0" prefHeight="33.0" prefWidth="160.0" text="3">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField layoutX="273.0" layoutY="130.0" prefHeight="46.0" prefWidth="149.0">
+      <TextField layoutX="273.0" layoutY="130.0" prefHeight="46.0" prefWidth="149.0" text="2">
          <font>
             <Font size="23.0" />
          </font>
