@@ -11,6 +11,17 @@
         "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx-swt.jar",
         "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jdk.jsobject.jar",
         "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jfx.incubator.input.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jfx.incubator.richtext.jar"
+        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jfx.incubator.richtext.jar",
+        "javafx_sdk/lib/javafx.base.jar",
+        "javafx_sdk/lib/javafx.controls.jar",
+        "javafx_sdk/lib/javafx.fxml.jar",
+        "javafx_sdk/lib/javafx.graphics.jar",
+        "javafx_sdk/lib/javafx.media.jar",
+        "javafx_sdk/lib/javafx.swing.jar",
+        "javafx_sdk/lib/javafx.web.jar",
+        "javafx_sdk/lib/javafx-swt.jar",
+        "javafx_sdk/lib/jdk.jsobject.jar",
+        "javafx_sdk/lib/jfx.incubator.input.jar",
+        "javafx_sdk/lib/jfx.incubator.richtext.jar"
     ]
 }
