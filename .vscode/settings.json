@@ -1,0 +1,8 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.base.jar",
+        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.controls.jar",
+        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.fxml.jar"
+    ]
+}
