@@ -1,4 +1,7 @@
 import javafx.application.Application;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application{
@@ -11,5 +14,9 @@ public class Main extends Application{
     public void start(Stage arg0) throws Exception {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'start'");
+        
+        FXMLLoader loader = new FXMLLoader();
+        
+        Scene
     }
 }
