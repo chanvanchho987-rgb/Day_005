@@ -17,6 +17,6 @@ public class Main extends Application{
         
         FXMLLoader loader = new FXMLLoader();
         
-        Scene
+        loader.setLocation(getClass().getResource("View.fxml"));
     }
 }
