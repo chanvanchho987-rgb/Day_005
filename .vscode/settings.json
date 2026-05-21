@@ -1,22 +1,16 @@
 {
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-<<<<<<< HEAD
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.base.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.controls.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.fxml.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.graphics.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.media.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.swing.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx.web.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\javafx-swt.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jdk.jsobject.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jfx.incubator.input.jar",
-        "c:\\Users\\Lenovo_PC\\Downloads\\javafx-26_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\jfx.incubator.richtext.jar"
-=======
-        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.base.jar",
-        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.controls.jar",
-        "c:\\Users\\ROG\\Downloads\\Telegram Desktop\\javafx_sdk\\lib\\javafx.fxml.jar"
->>>>>>> 68d2b09e31f2a163acfcbd10d53d784c1760bb61
+        "javafx_sdk/lib/javafx.base.jar",
+        "javafx_sdk/lib/javafx.controls.jar",
+        "javafx_sdk/lib/javafx.fxml.jar",
+        "javafx_sdk/lib/javafx.graphics.jar",
+        "javafx_sdk/lib/javafx.media.jar",
+        "javafx_sdk/lib/javafx.swing.jar",
+        "javafx_sdk/lib/javafx.web.jar",
+        "javafx_sdk/lib/javafx-swt.jar",
+        "javafx_sdk/lib/jdk.jsobject.jar",
+        "javafx_sdk/lib/jfx.incubator.input.jar",
+        "javafx_sdk/lib/jfx.incubator.richtext.jar"
     ]
 }
