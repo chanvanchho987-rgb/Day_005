@@ -28,17 +28,17 @@
             <Font size="30.0" />
          </font>
       </Label>
-      <TextField id="textfile_num1" fx:id="textfile_num1" layoutX="52.0" layoutY="130.0" prefHeight="33.0" prefWidth="160.0" text="3">
+      <TextField id="textfile_num1" fx:id="textfile_num1" layoutX="52.0" layoutY="130.0" prefHeight="33.0" prefWidth="160.0">
          <font>
             <Font size="24.0" />
          </font>
       </TextField>
-      <TextField id="textfile_num2" fx:id="textfile_num2" layoutX="273.0" layoutY="130.0" prefHeight="46.0" prefWidth="149.0" text="2">
+      <TextField id="textfile_num2" fx:id="textfile_num2" layoutX="273.0" layoutY="130.0" prefHeight="46.0" prefWidth="149.0">
          <font>
             <Font size="23.0" />
          </font>
       </TextField>
-      <Button fx:id="button_calculate" layoutX="213.0" layoutY="253.0" mnemonicParsing="false" text="Calculate">
+      <Button fx:id="button_calculate" layoutX="213.0" layoutY="253.0" mnemonicParsing="false" onAction="#on_calculate" text="Calculate">
          <font>
             <Font size="28.0" />
          </font>
