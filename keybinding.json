@@ -1,0 +1,34 @@
+[
+  {
+    "key": "ctrl+enter",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.files.save",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "cd \"${fileDirname}\"\u000Dcls\u000Djava ${fileBasename}\u000D"
+          }
+        }
+      ]
+    },
+    "when": "editorFocus && editorLangId == 'java'"
+  },
+  {
+    "key": "shift+enter",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.files.save",
+        {
+          "command": "workbench.action.terminal.sendSequence",
+          "args": {
+            "text": "cd \"${fileDirname}\"\u000Dcls\u000Djavac --module-path \"${workspaceFolder}/lib/javafx_sdk/lib\" --add-modules javafx.controls,javafx.fxml,javafx.web *.java\u000Djava --module-path \"${workspaceFolder}/lib/javafx_sdk/lib\" --add-modules javafx.controls,javafx.fxml,javafx.web ${fileBasenameNoExtension}\u000D"
+          }
+        }
+      ]
+    },
+    "when": "editorFocus && editorLangId == 'java'"
+  }
+]
