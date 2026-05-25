@@ -14,7 +14,7 @@
          <font>
             <Font size="14.0" />
          </font></Button>
-      <TextField fx:id="textfeild_num1" layoutX="90.0" layoutY="190.0" prefHeight="27.0" prefWidth="125.0" />
+      <TextField layoutX="90.0" layoutY="190.0" prefHeight="27.0" prefWidth="125.0" />
       <Label layoutX="240.0" layoutY="193.0" text="+">
          <font>
             <Font size="14.0" />
@@ -35,7 +35,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField fx:id="textfield_num2" layoutX="288.0" layoutY="190.0" prefHeight="27.0" prefWidth="125.0" />
+      <TextField layoutX="288.0" layoutY="190.0" prefHeight="27.0" prefWidth="125.0" />
       <ImageView fitHeight="99.0" fitWidth="93.0" layoutX="33.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@logo-GTR-1024x1024.jpg" />
