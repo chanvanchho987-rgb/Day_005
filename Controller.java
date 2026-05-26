@@ -3,7 +3,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class controller {
+public class Controller {
 
     @FXML
     private Button btn_calculate;
