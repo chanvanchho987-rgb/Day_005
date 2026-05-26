@@ -1,7 +1,8 @@
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.Label;
+import javafx.scene.control.TextArea;
+import javafx.scene.image.ImageView;
 
 public class Controller {
 
@@ -9,13 +10,19 @@ public class Controller {
     private Button btn_calculate;
 
     @FXML
-    private Label label_num1;
+    private ImageView pic_001;
 
     @FXML
-    private Label label_num2;
+    private ImageView pic_002;
 
     @FXML
-    private Label label_result;
+    private TextArea text_num1;
+
+    @FXML
+    private TextArea text_num2;
+
+    @FXML
+    private TextArea text_num3;
 
     @FXML
     void on_calculate(ActionEvent event) {
