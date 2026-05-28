@@ -26,7 +26,7 @@ public class controller {
 
     @FXML
     void on_calculate(ActionEvent event) {
-
+        System.out.println("Calculate!");
     }
 
 }
