@@ -13,5 +13,5 @@
         "javafx_sdk/lib/jfx.incubator.input.jar",
         "javafx_sdk/lib/jfx.incubator.richtext.jar"
     ],
-    "editor.fontFamily": "Space Mono",
+    "editor.fontFamily": "Cascadia Mono",
 }
