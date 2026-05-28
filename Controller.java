@@ -34,7 +34,9 @@ public class controller {
 
         double db_sum = db_num1 + db_num2;
 
-        System.out.println("Sum: " + db_sum);
+        String str_sum = String.valueOf(db_sum);
+
+        text_num3.setText(str_sum);
 
     }
 
