@@ -14,7 +14,7 @@
          <font>
             <Font size="14.0" />
          </font></Button>
-      <Label layoutX="204.0" layoutY="173.0" text="+">
+      <Label layoutX="199.0" layoutY="173.0" text="+">
          <font>
             <Font size="28.0" />
          </font>
@@ -41,7 +41,7 @@
       </ImageView>
       <TextField fx:id="text_num1" layoutX="33.0" layoutY="173.0" prefHeight="40.0" prefWidth="149.0" />
       <TextField fx:id="text_num2" layoutX="226.0" layoutY="173.0" prefHeight="40.0" prefWidth="149.0" />
-      <TextField fx:id="text_num3" layoutX="414.0" layoutY="173.0" prefHeight="40.0" prefWidth="149.0" text="Result">
+      <TextField fx:id="text_num3" blendMode="GREEN" layoutX="414.0" layoutY="173.0" prefHeight="40.0" prefWidth="149.0" text="Result">
          <font>
             <Font size="20.0" />
          </font>

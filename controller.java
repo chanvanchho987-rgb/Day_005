@@ -1,9 +1,7 @@
-
-
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
-import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import javafx.scene.image.ImageView;
 
 public class controller {
@@ -18,16 +16,17 @@ public class controller {
     private ImageView pic_002;
 
     @FXML
-    private TextArea text_num1;
+    private TextField text_num1;
 
     @FXML
-    private TextArea text_num2;
+    private TextField text_num2;
 
     @FXML
-    private TextArea text_num3;
+    private TextField text_num3;
 
     @FXML
     void on_calculate(ActionEvent event) {
+
         String str_num1 = text_num1.getText();
         String str_num2 = text_num2.getText();
 
