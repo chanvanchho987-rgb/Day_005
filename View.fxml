@@ -32,17 +32,17 @@
       </Label>
       <ImageView fx:id="pic_001" fitHeight="99.0" fitWidth="93.0" layoutX="33.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/logo-GTR-1024x1024.jpg" />
+            <Image url="@asset/itc-cambodia.jpg" />
          </image>
       </ImageView>
       <ImageView fx:id="pic_002" fitHeight="107.0" fitWidth="155.0" layoutX="456.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../asset/itc-cambodia.jpg" />
+            <Image url="@asset/logo-GTR-1024x1024.jpg" />
          </image>
       </ImageView>
       <TextArea fx:id="text_num1" layoutX="30.0" layoutY="167.0" prefHeight="53.0" prefWidth="160.0" />
       <TextArea fx:id="text_num2" layoutX="228.0" layoutY="167.0" prefHeight="53.0" prefWidth="160.0" />
-      <TextArea fx:id="text_num3" layoutX="408.0" layoutY="167.0" minHeight="-Infinity" prefHeight="53.0" prefWidth="160.0" text="Result" style="-fx-text-fill: red;">
+      <TextArea fx:id="text_num3" layoutX="408.0" layoutY="167.0" minHeight="-Infinity" prefHeight="53.0" prefWidth="160.0" style="-fx-text-fill: red;" text="Result">
          <font>
             <Font name="Times New Roman" size="20.0" />
          </font>
