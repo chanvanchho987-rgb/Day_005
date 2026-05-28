@@ -1,3 +1,4 @@
+package main;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -11,14 +12,14 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(getClass().getResource("View.fxml"));
+        loader.setLocation(getClass().getResource("main/View.fxml"));
         Scene scene = new Scene(loader.load());
 
         stage.setScene(scene);
 
         stage.setTitle("Mini Project 001");
 
-        stage.getIcons().add(new javafx.scene.image.Image(getClass().getResourceAsStream("itc-cambodia.jpg")));
+        stage.getIcons().add(new javafx.scene.image.Image(getClass().getResourceAsStream("asset/itc-cambodia.jpg")));
 
         stage.show();
     }
