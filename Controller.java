@@ -26,7 +26,13 @@ public class controller {
 
     @FXML
     void on_calculate(ActionEvent event) {
-        System.out.println("Calculate!");
+        String str_num1 = text_num1.getText();
+        String str_num2 = text_num2.getText();
+
+        double db_num1 = Double.parseDouble(str_num1);
+        double db_num2 = Double.parseDouble(str_num2);
+
+        
     }
 
 }
