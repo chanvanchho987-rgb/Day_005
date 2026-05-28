@@ -14,9 +14,12 @@ public class Main extends Application {
         loader.setLocation(getClass().getResource("View.fxml"));
         Scene scene = new Scene(loader.load());
 
-        
-
         stage.setScene(scene);
+
+        stage.setTitle("Mini Project 001");
+
+        stage.getIcons().add(new javafx.scene.image.Image(getClass().getResourceAsStream("itc-cambodia.jpg")));
+
         stage.show();
     }
 
