@@ -32,7 +32,10 @@ public class controller {
         double db_num1 = Double.parseDouble(str_num1);
         double db_num2 = Double.parseDouble(str_num2);
 
-        
+        double db_sum = db_num1 + db_num2;
+
+        System.out.println("Sum: " + db_sum);
+
     }
 
 }
