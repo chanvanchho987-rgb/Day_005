@@ -37,6 +37,7 @@ public class controller {
         String str_sum = String.valueOf(db_sum);
 
         text_num3.setText(str_sum);
+        System.out.println("Sum: " + str_sum);
 
     }
 
